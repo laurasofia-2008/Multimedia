@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(36, 36, 36);
+    height: 60px;
+    border-bottom: 7px solid rgb(0, 153, 255);
+    padding-top: 20px;
+}
+
+span {
+    color: rgb(0, 153, 255);
+}
+
+nav {
+    margin-top: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+}
+
+a:hover {
+    box-shadow: 0 0 10px 0 rgb(0, 153, 255) ;
+    color: rgb(0, 153, 255);
+    border-radius: 50px;
+}
+
+.introduccion {
+    background-image:url(/images/cabecera.jpg) ;
+    background-position: center;
+    height: 44.2vh;
+}
+
+p {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.tittle {
+    text-align: center;
+    font-size: 60px;
+    padding-top: 10vh;
+}
+
+.subscripcion { 
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(36, 36, 36);
+    padding: 25px;
+}
+
+input {
+    height: 30px;
+    width: 20vh;
+    border: 0px;
+}
+
+#subscribete {
+    width: 10vh;
+    height: 35px;
+    background-color: rgb(255, 81, 0);
+    color: #fff;
+    border: 0px;
+}
+
+.tipos {
+    display: flex;
+    justify-content: space-around;
+    color: #000;
+    margin: 0 20vh 0 20vh;
+}
+
+.tipo {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.tipo img {
+    width: 10vh;
+    height: 95px;
+}
+
+.tipo h3 {
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.tipo p {
+    padding: 10px 30px 0 30px;
+    font-size: 15px;
+}
+
+footer {
+    margin-top: 36px;
+    background-color: rgb(0, 153, 255);
+    height: 85px;
+    align-content: center;
+}
+
+@media (max-width: 920px){
+    .tipos {
+        margin: 0 10vh 0 10vh;
+    }
+
+    header {
+        font-size: 15px;
+    }
+
+    nav {
+        margin-top: 11px;
+    }
+
+    a {
+        padding: 0 7px 0 7px;
+    }
+}
+
+@media (max-width: 753px) {
+    header {
+        font-size: 12px;
+        padding-top: 30px;
+    }
+
+    nav {
+        margin-top: 9px;
+    }
+
+    .introduccion h1 {
+        font-size: 55px;
+    }
+
+    .introduccion p{
+        padding: 20px;
+        font-size: 15px;
+    }
+
+    .subscripcion h2 {
+        font-size: 20px;
+        padding-top: 5px;
+    }
+
+    #subscribete {
+        height: 25px;
+        margin-top: 3px;
+    }
+
+    .tipos {
+        display: grid;
+        justify-content: center;
+    }
+
+    .tipos {
+        margin: 0 4vh 0 4vh;
+    }
+}
+
+@media (max-width: 530px){
+    header {
+        font-size: 11px;
+        padding-top: 30px;
+    }
+
+    .tipos {
+        margin: 0 5vh 0 5vh;
+    }
+
+    .subscripcion h2 {
+        padding-top: 5px;
+    }
+
+    #subscribete {
+        height: 25px;
+        margin-top: 3px;
+    }
+}
+
+@media (max-width: 500px) {
+    header h1 {
+        font-size: 20px;
+        padding-top: 6px;
+    }
+
+    nav {
+        margin-top: 13px;
+    }
+
+    a {
+        padding: 0 5px 0 5px;
+    }
+
+    .subscripcion h2 {
+        padding-top: 10px;
+    }
+
+    .subscripcion form {
+        margin-left: 40px;
+    }
+
+    #subscribete {
+        height: 25px;
+        margin-top: 3px;
+    }
+
+    #subscribete {
+        height: 25px;
+        margin-top: 3px;
+    }
+
+    .tipos {
+        margin: 0 5vh 0 5vh;
+    }
+}
+
+@media (max-width: 457px) {
+    header h1 {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+
+    .introduccion {
+        padding: 8px;
+    }
+
+    nav {
+        margin-top: 14px;
+    }
+
+    a {
+        padding: 0 2px 0 2px;
+    }
+
+    .introduccion h1 {
+        font-size: 50px;
+    }
+
+    input {
+        width: 15vh;
+    }
+
+    #subscribete {
+        height: 25px;
+        margin-top: 3px;
+    }
+
+    .tipos {
+        margin: 0 3vh 0 3vh;
+    }
+}
+
+@media (max-width: 408px){
+    header h1 {
+        font-size: 14px;
+    }
+    
+    nav {
+        font-size: 10px;
+    }
+
+    a {
+        padding: 0 1px 0 1px;
+    }
+
+    .subscripcion h2 {
+        font-size: 15px;
+    }
+    
+    input {
+        width: 15vh;
+    }
+
+    #subscribete {
+        height: 20px;
+        margin-top: 3px;
+    }
+
+    .tipos {
+        margin: 0 2vh 0 2vh;
+    }
+}
