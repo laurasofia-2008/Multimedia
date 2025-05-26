@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #1c1c1c;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  align-items: center;
+  border-bottom: 3px solid #3aa0df;
+}
+
+.boletin{
+  background-color: #1e1e1e;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.boletin h2 {
+  margin-right: 60%;
+  font-size: 20px;
+
+}
+
+.boletin form {
+  display: flex;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.highlight {
+  color: #3aa0df;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a.active {
+  color: #3aa0df;
+  font-weight: bold;
+}
+
+.boletin {
+  background-color: #222;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.boletin input {
+  padding: 8px;
+  width: 300px;
+}
+
+.boletin button {
+  padding: 8px 16px;
+  background-color: #e8491d;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  padding: 40px;
+}
+
+.contenido {
+  flex: 2;
+  padding-right: 20px;
+}
+
+.contenido h2 {
+  margin-bottom: 10px;
+}
+
+.contenido p {
+  margin-bottom: 20px;
+}
+
+.caja-gris {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.contenido img {
+  width: 100%;
+  height: auto;
+}
+
+.lateral {
+  flex: 1;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  height: fit-content;
+}
+
+footer {
+  background-color: #1993d1;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+  display: block;
+  min-height: 8vh;
+}
