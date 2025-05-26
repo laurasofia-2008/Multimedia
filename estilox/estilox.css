@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #1e1e1e;
+    color: #fff;
+    padding: 20px 0;
+    border-bottom: 4px solid #0e78c3;
+}
+
+header .contenedor {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 span {
+    color: #0e78c3;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a.activo {
+    color: #0e78c3;
+}
+
+.boletin {
+    background: #2e2e2e;
+    color: white;
+    padding: 20px 0;
+}
+
+.boletin .contenedor {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boletin input[type="email"] {
+    padding: 10px;
+    width: 250px;
+}
+
+.boletin button {
+    padding: 10px 20px;
+    background-color: #e8491d;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+main.contenido {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 40px auto;
+    gap: 20px;
+}
+
+.formulario-contacto {
+    flex: 2;
+}
+
+.formulario-contacto h2 {
+    margin-bottom: 10px;
+}
+
+.formulario-contacto form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.formulario-contacto button {
+    padding: 10px;
+    background: #e8491d;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+aside {
+    flex: 1;
+}
+
+aside .info {
+    background: #2e2e2e;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+aside .mapa img {
+    width: 100%;
+}
+
+footer {
+    background: #0e78c3;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
